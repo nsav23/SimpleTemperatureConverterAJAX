@@ -21,17 +21,20 @@ A simple AJAX-based web app that converts Fahrenheit to Celsius using a Java Ser
 
 SimpleTemperatureConverter/
 ├── pom.xml
-├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com.nikolay.converterdemo
-│ │ │ └── TemperatureConversionServlet.java
-│ │ ├── webapp
-│ │ │ ├── index.html
-│ │ │ ├── style.css
-│ │ │ ├── script.js
-│ │ │ └── WEB-INF
-│ │ │ └── web.xml
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── nikolay
+        │           └── converterdemo
+        │               └── TemperatureConversionServlet.java
+        └── webapp
+            ├── index.html
+            ├── style.css
+            ├── script.js
+            └── WEB-INF
+                └── web.xml
+
 
 
 ## Building the project (Linux)
