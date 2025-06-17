@@ -1,0 +1,34 @@
+# Maven target dir
+/target/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDEs: IntelliJ IDEA
+/.idea/
+/*.iml
+*.iws
+*.ipr
+out/
+
+# IDEs: Eclipse
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build tool files
+*.bak
+*.swp
+*.tmp
