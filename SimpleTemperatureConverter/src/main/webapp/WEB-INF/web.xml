@@ -1,0 +1,15 @@
+<!DOCTYPE web-app>                                                                                                      <!-- Defines the document type — it tells the servlet container that this is a web application descriptor -->
+<web-app>
+    <servlet>
+        <servlet-name>TemperatureConversionServlet</servlet-name>
+        <servlet-class>com.nikolay.converterdemo.TemperatureConversionServlet</servlet-class>                           <!-- This must match exactly how the java file is declared, including the package name -->
+        <load-on-startup>1</load-on-startup>                                                                            <!-- This tells the server to load this servlet as soon as the app starts -->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TemperatureConversionServlet</servlet-name>
+        <url-pattern>/convert</url-pattern>                                                                             <!-- Defines what URL this servlet listens to -->
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

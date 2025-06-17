@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <SCRIPT language="JavaScript" src="script.js"></SCRIPT>
+    <title>Simple Temperature Converter</title>
+</head>
+<body>
+    <h1> Temperature Converter </h1>
+    <h2> Input F&#176; value and press Enter. </h2>
+    <form onsubmit="return false;">                                                                                     <!-- Prevents page reload if user hits Enter without AJAX working -->
+        <table>
+            <tr>
+                <td>
+                    <label for="unitF">Fahrenheit (&#176;F):</label>
+                    <input type="text" id="unitF" name="unitF"
+                            onkeyup="convertToCelsius(event);">                                                         <!-- "convertToCelsius(event); is defined in script.js -->
+                </td>
+            </tr>
+        </table>
+    </form>
+    <table>
+        <tr>
+            <td>
+                <label for="celsius">Celsius (C&#176;):</label>
+                <input type="text" readonly id="celsius">                                                               <!-- read-only text box for displaying the converted value -->
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
