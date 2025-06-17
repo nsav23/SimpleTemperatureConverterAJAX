@@ -19,6 +19,7 @@ A simple AJAX-based web app that converts Fahrenheit to Celsius using a Java Ser
 
 ## Project Structure
 
+```
 SimpleTemperatureConverter/
 ├── pom.xml
 └── src
@@ -34,6 +35,7 @@ SimpleTemperatureConverter/
             ├── script.js
             └── WEB-INF
                 └── web.xml
+```
 
 
 
